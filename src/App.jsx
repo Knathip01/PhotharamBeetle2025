@@ -19,7 +19,7 @@ import BestSelling from "./components/pages/BestSelling";
 import TopRated from "./components/pages/TopRated";
 import Order from "./components/pages/Order";
 // ✅ ให้ตรงชื่อไฟล์เป๊ะ + ระบุ .jsx
-import TrendingProducts from "./components/pages/TrendingProducts.jsx";
+import TrendingProducts from "./components/pages/Trendingproducts.jsx";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
