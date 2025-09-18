@@ -6,7 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import Products1 from "./components/Products/Products1";
 import TopProducts from "./components/TopProducts/TopProducts";
-//import Testimonials from "./components/Testimonials/Testimonials";
+// import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
 
@@ -18,8 +18,8 @@ import BeetleFeedingEquipment from "./components/pages/BeetleFeedingEquipment";
 import BestSelling from "./components/pages/BestSelling";
 import TopRated from "./components/pages/TopRated";
 import Order from "./components/pages/Order";
-// ✅ ใช้ชื่อตัว P ใหญ่ให้ตรงกับไฟล์จริง
-import TrendingProducts from "./components/pages/TrendingProducts";
+// ✅ ให้ตรงชื่อไฟล์เป๊ะ + ระบุ .jsx
+import TrendingProducts from "./components/pages/TrendingProducts.jsx";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -27,7 +27,7 @@ import "aos/dist/aos.css";
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
-  // คง cart เอาไว้เผื่อหน้าบางหน้าของคุณยังใช้ (ไม่มีผลกับ Navbar ใหม่)
+  // คง cart ไว้เผื่อหน้าอื่นใช้
   const [cart, setCart] = React.useState([]);
 
   const handleOrderPopup = () => setOrderPopup((v) => !v);
@@ -44,10 +44,8 @@ const App = () => {
 
   return (
     <Router>
-      {/* พื้นหลังจะมาจาก DarkMode ที่อยู่ใน Navbar (เราได้ใส่เลเยอร์พื้นหลังไว้ในคอมโพเนนต์นั้นแล้ว) */}
+      {/* พื้นหลังจาก DarkMode ใน Navbar */}
       <div className="relative z-10 bg-transparent dark:bg-transparent dark:text-white duration-200">
-
-        {/* ส่ง props เฉพาะที่ Navbar รองรับ (ถ้า Navbar ใหม่ไม่ใช้ cart/handleOrderPopup ก็ไม่เป็นไร React จะเมินเอง) */}
         <Navbar cart={cart} handleOrderPopup={handleOrderPopup} />
 
         <Routes>
@@ -59,7 +57,6 @@ const App = () => {
                 <Products />
                 <TopProducts handleOrderPopup={handleOrderPopup} />
                 <Products1 />
-                
                 <Footer />
               </>
             }
@@ -73,12 +70,15 @@ const App = () => {
             element={<BeetleFeedingEquipment cart={cart} setCart={setCart} />}
           />
 
-          {/* รองรับทั้งตัวพิมพ์ใหญ่/เล็ก สำหรับลิงก์เมนูเดิม */}
+          {/* รองรับทั้งตัวพิมพ์ใหญ่/เล็ก สำหรับลิงก์เดิม */}
           <Route path="/Pliers-beetle" element={<PliersBeetle cart={cart} setCart={setCart} />} />
           <Route path="/pliers-beetle" element={<PliersBeetle cart={cart} setCart={setCart} />} />
 
           {/* Collections */}
-          <Route path="/trending-products" element={<TrendingProducts cart={cart} setCart={setCart} />} />
+          <Route
+            path="/trending-products"
+            element={<TrendingProducts cart={cart} setCart={setCart} />}
+          />
           <Route path="/best-selling" element={<BestSelling cart={cart} setCart={setCart} />} />
           <Route path="/top-rated" element={<TopRated cart={cart} setCart={setCart} />} />
 
