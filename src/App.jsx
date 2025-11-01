@@ -6,7 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import Products1 from "./components/Products/Products1";
 import TopProducts from "./components/TopProducts/TopProducts";
-// import Testimonials from "./components/Testimonials/Testimonials";
+import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
 

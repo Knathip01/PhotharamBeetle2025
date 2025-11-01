@@ -28,63 +28,7 @@ const LINKS = {
 
 // ================== สินค้า (โหมด SOON: ไม่ต้องมี price) ==================
 const products = [
-  {
-    id: 1,
-    name: "lucanus cervus akbesianus",
-    image: LocalBeetleImg1,
-    description: "",
-    tags: ["กำลังมา", "70xffxff"],
-  },
-{
-    id: 7,
-    name: "Cyclommatus metalifer",
-    image: LocalBeetleImg7,
-    description: "ด้วงคีมเนื้อทรายเมทาลิเฟอร์(ม่วง)",
-    tags: ["กำลังมา", "80xff"],
-  },
-
-   {
-    id: 8,
-    name: "Dorcus titanus palawanicus",
-    image: LocalBeetleImg8,
-    description: "ด้วงคีมพาราวัล",
-    tags: ["กำลังมา", "98"],
-  },
-  {
-    id: 2,
-    name: "Prosopocoilus giraffa",
-    image: LocalBeetleImg2,
-    description: "ด้วงคีมยีราฟ",
-    tags: ["กำลังเพาะ", "94xffxff"],
-  },
-  {
-    id: 3,
-    name: "Cyclommatus lunifer",
-    image: LocalBeetleImg3,
-    description: "ด้วงคีมเนื้อทรายเขี้ยวจันทร์",
-    tags: ["กำลังเพาะ", "44xffxff"],
-  },
-  {
-    id: 4,
-    name: "Homoderus mellyi",
-    image: LocalBeetleImg4,
-    description: "ด้วงคีมปลวก",
-    tags: ["พักตัว", "51xffxff"],
-  },
-  {
-    id: 5,
-    name: "Prosopocoilus spencei mandiburalis",
-    image: LocalBeetleImg5,
-    description: "ด้วงคีมเขี้ยวย้น",
-    tags: ["กำลังเพาะ", "31xffxff"],
-  },
-  {
-    id: 6, // แก้จาก 5 -> 6 เพื่อไม่ให้ซ้ำ
-    name: "Rhaetulus crenatus boileaui",
-    image: LocalBeetleImg6,
-    description: "ด้วงสมันอกดำ, สมันเวียดนาม",
-    tags: ["พักตัว", "42 x FF"],
-  },
+  
 ];
 
 // ================== พื้นหลังอนิเมชันธรรมชาติ + แมลงบิน ==================
