@@ -147,16 +147,7 @@ const products = [
     tags: ["CBF2"],
     stock: 0, // ❗ สินค้าหมด
   },
-  {
-    id: 11,
-    name: "Dorcus Titanus Typhon",
-    price: 2000,
-    image: LocalBeetleImg6,
-    description:
-      "ด้วงคีมฟันเลื่อยไทฟอน: 1 คู่ (ผู้+เมีย) ",
-    tags: ["WD"],
-    stock: 0, // ❗ สินค้าหมด
-  },
+  
   {
     id: 12,
     name: "Dorcus titanus thaiphon",
