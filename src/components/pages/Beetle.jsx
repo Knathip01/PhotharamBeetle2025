@@ -147,7 +147,16 @@ const products = [
     tags: ["CBF2"],
     stock: 0, // ❗ สินค้าหมด
   },
-  
+  {
+    id: 11,
+    name: "Neolucanus saundersi maximus",
+    price: 900,
+    image: LocalBeetleImg6,
+    description:
+      " ด้วงคีมนีโอดำยักษ์: 1 คู่ (ผู้+เมีย) ",
+    tags: ["WD"],
+    stock: 0, // ❗ สินค้าหมด
+  },
   {
     id: 12,
     name: "Dorcus titanus thaiphon",
