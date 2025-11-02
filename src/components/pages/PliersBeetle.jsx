@@ -28,6 +28,7 @@ import LocalBeetleImg7 from "../../assets/PliersBeetle/ด้วงคีมห�
 import LocalBeetleImg8 from "../../assets/PliersBeetle/ด้วงคีมดาบญี่ปุ่น.jpg";
 import LocalBeetleImg10 from "../../assets/PliersBeetle/567157107_24927779830241695_3009823137840965_n.jpg";
 import LocalBeetleImg12 from "../../assets/PliersBeetle/569746139_1512363023347573_4045520004946656290_n.jpg";
+import LocalBeetleImg13 from "../../assets/PliersBeetle/77ed2781-c9f2-4b1f-b9a6-2b1b09666a4f.jpg";
 
 // ================== ลิงก์ติดต่อ ==================
 const LINKS = {
@@ -64,7 +65,7 @@ const products = [
     name: "Cyclommatus pahangensis chiangmaiensis",
     price: 400,
     image: LocalBeetleImg1,
-    description: "ด้วงคีมเนื้อทรายเชียงใหม่:ตัวอ่อน:L1: 1 คู่",
+    description: "ด้วงคีมเนื้อทรายเชียงใหม่:ตัวอ่อน:L3: 1 คู่",
     tags: ["wf1"],
     stock: 5,
   },
@@ -132,6 +133,15 @@ const products = [
     image: LocalBeetleImg9,
     description: "ด้วงคีมดาบญี่ปุ่น:ตัวอ่อน:L2-3: 1 คู่",
     tags: ["WF1", "55xff"],
+  },
+  {
+    id: 41,
+    name: "Cyclommatus metallifer",
+    price: 400,
+    image: LocalBeetleImg13,
+    description: "ด้วงคีมเนื้อทรายเมทาลิเฟอร์:ตัวอ่อน:L1: 1 ตัว",
+    tags: ["CBF1"],
+    stock: 0,
   },
 ];
 

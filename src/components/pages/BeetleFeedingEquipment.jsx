@@ -84,7 +84,7 @@ const products = [
     image: LocalBeetleImg10,
     description: "ด้วงคีม ด้วงกว่าง ด้วงดอกไม้",
     tags: ["แนะนำ", "คุ้มค่า"],
-     stock: 1, // ❗ สินค้าหมด
+     stock: 0, // ❗ สินค้าหมด
 
   },
 

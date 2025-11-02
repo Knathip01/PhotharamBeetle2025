@@ -30,6 +30,7 @@ import LocalBeetleImg11 from "../../assets/women/569184315_1174505177959794_1485
 import LocalBeetleImg12 from "../../assets/women/569906727_1726693275385891_4447643609013354905_n.jpg";
 import LocalBeetleImg13 from "../../assets/women/550880859_1943691952866766_5611199121960304031_n.jpg";
 import LocalBeetleImg14 from "../../assets/women/557955964_733747962318194_6529236557182747978_n.jpg";
+import LocalBeetleImg15 from "../../assets/women/260cd2c3-3644-4bae-8581-857c757edead.jpg";
 // ================== ลิงก์ติดต่อ ==================
 const LINKS = {
   messenger: "https://www.facebook.com/messages/t/1793673580933878",
@@ -137,6 +138,20 @@ const products = [
     tags: ["WD"],
     stock: 0, // ❗ สินค้าหมด
   },
+
+  {
+    id: 41,
+    name: "Jumnos Ruckeri",
+    price: 800,
+    image: LocalBeetleImg15,
+    description:
+      "แมลงทับเหลี่ยมจุดเหลือง:1 คู่ (ผู้+เมีย) ",
+    tags: ["WF3"],
+    stock: 0, // ❗ สินค้าหมด
+  },
+
+
+
   {
     id: 10,
     name: "Rhaetulus crenatus boileaui",
@@ -178,6 +193,8 @@ const products = [
     tags: ["WF3"],
     stock: 0, // ❗ สินค้าหมด
   },
+
+
 
 ];
 
