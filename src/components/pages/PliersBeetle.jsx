@@ -29,6 +29,7 @@ import LocalBeetleImg8 from "../../assets/PliersBeetle/ด้วงคีมด�
 import LocalBeetleImg10 from "../../assets/PliersBeetle/567157107_24927779830241695_3009823137840965_n.jpg";
 import LocalBeetleImg12 from "../../assets/PliersBeetle/569746139_1512363023347573_4045520004946656290_n.jpg";
 import LocalBeetleImg13 from "../../assets/PliersBeetle/77ed2781-c9f2-4b1f-b9a6-2b1b09666a4f.jpg";
+import LocalBeetleImg14 from "../../assets/PliersBeetle/581945496_1676019290379003_656026647770290313_n.jpg";
 
 // ================== ลิงก์ติดต่อ ==================
 const LINKS = {
@@ -40,6 +41,11 @@ const LINKS = {
 
 // ================== สินค้า ==================
 const products = [
+ 
+ 
+ 
+ 
+ 
   {
     id: 14,
     name: "Prosopocoilus giraffa",
@@ -67,7 +73,7 @@ const products = [
     image: LocalBeetleImg1,
     description: "ด้วงคีมเนื้อทรายเชียงใหม่:ตัวอ่อน:L3: 1 คู่",
     tags: ["wf1"],
-    stock: 5,
+    stock: 0,
   },
 
 
@@ -90,7 +96,7 @@ const products = [
     image: LocalBeetleImg3,
     description: "ด้วงคีมสายรุ้งสีแดงตัวเพาะไต้หวัน:ตัวอ่อน:L2-3: 1 คู่",
     tags: ["CBF2", "55xff"],
-    stock: 8,
+    stock: 0,
   },
  
 
@@ -101,6 +107,7 @@ const products = [
     image: LocalBeetleImg6,
     description: "ด้วงคีมแลมพลีม่าตัวเพาะญี่ปุ่น:ตัวอ่อน:L2-3: 1 คู่",
     tags: ["CBF1"],
+    stock: 0,
   },
     {
     id: 20,
@@ -109,6 +116,7 @@ const products = [
     image: LocalBeetleImg5,
     description: "ด้วงคีมหลังม้าลาย:อินโดนีเซีย :ตัวอ่อน:L1-2: 1 ตัว",
     tags: ["Wf5"],
+    stock: 0,
   },
   {
     id: 21,
@@ -117,6 +125,7 @@ const products = [
     image: LocalBeetleImg7,
     description: "ด้วงคีมหลังม้าลาย:อินโดนีเซีย :ตัวอ่อน:L3: 1 คู่",
     tags: ["Wf5"],
+    stock: 0,
   },
   {
     id: 22,
@@ -125,6 +134,8 @@ const products = [
     image: LocalBeetleImg8,
     description: "ด้วงคีมดาบญี่ปุ่น:ตัวอ่อน:L1–2: 1 ตัว",
     tags: ["WF1", "55xff"],
+    stock: 0,
+
   },
   {
     id: 23,
@@ -133,6 +144,7 @@ const products = [
     image: LocalBeetleImg9,
     description: "ด้วงคีมดาบญี่ปุ่น:ตัวอ่อน:L2-3: 1 คู่",
     tags: ["WF1", "55xff"],
+    stock: 0,
   },
   {
     id: 41,
@@ -143,6 +155,18 @@ const products = [
     tags: ["CBF1"],
     stock: 0,
   },
+
+ {
+    id: 44,
+    name: "Homoderus mellyi",
+    price: 350,
+    image: LocalBeetleImg14,
+    description: "ด้วงคีมเมลยี:ตัวอ่อน:L1: 1 ตัว",
+    tags: ["CBF1"],
+    stock: 0,
+  },
+
+
 ];
 
 // ================== Utils ==================

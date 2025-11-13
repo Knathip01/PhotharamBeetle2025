@@ -31,6 +31,8 @@ import LocalBeetleImg12 from "../../assets/women/569906727_1726693275385891_4447
 import LocalBeetleImg13 from "../../assets/women/550880859_1943691952866766_5611199121960304031_n.jpg";
 import LocalBeetleImg14 from "../../assets/women/557955964_733747962318194_6529236557182747978_n.jpg";
 import LocalBeetleImg15 from "../../assets/women/260cd2c3-3644-4bae-8581-857c757edead.jpg";
+import LocalBeetleImg16 from "../../assets/women/3bf3cccd-2c9f-441b-a449-e09dfb893633.jpg";
+import LocalBeetleImg17 from "../../assets/women/aca9113d-ab1b-48fd-9741-b8587decbb97.jpg";
 // ================== ลิงก์ติดต่อ ==================
 const LINKS = {
   messenger: "https://www.facebook.com/messages/t/1793673580933878",
@@ -53,42 +55,19 @@ const products = [
     stock: 1, // ❗ สินค้าหมด
   },
 
-
-   {
-    id: 2,
-    name: "Homoderus gladiator",
-    price: 1800,
-    image: LocalBeetleImg8,
-    description:
-      "ด้วงคีมกลาดิเอเตอร์:(ผู้1+เมีย2) ",
-    tags: ["CBF1", "พักตัว"],
+{
+    id: 6,
+    name: "Mecynorrhina polyphemus confluens",
+    price: 1500,
+    image: LocalBeetleImg14,
+    description: "ด้วงดอกไม้โพลิฟิมุส: 1คู่ (ผู้+เมีย)",
+    tags: ["CBF2"],
     stock: 1, // ❗ สินค้าหมด
   },
-
- {
-    id: 3,
-    name: "Lucanus cervus akbesianus",
-    price: 2500,
-    image: LocalBeetleImg9,
-    description:
-      "ด้วงคีมก้ามปู: (ผู้1+เมีย2) ",
-    tags: ["CBF1" , "พักตัว"],
-    stock: 1, // ❗ สินค้าหมด
-  },
+  
 
 
-   {
-    id: 4,
-    name: "Dorcus hopei binodulosus",
-    price: 2000,
-    image: LocalBeetleImg10,
-    description:
-      "ด้วงคีมโฮเปญี่ปุ่น:1 คู่ (ผู้+เมีย) ",
-    tags: ["WD"],
-    stock: 1, // ❗ สินค้าหมด
-  },
-
- {
+  {
     id: 5,
     name: "Cyclommatus lunifer",
     price: 1000,
@@ -99,15 +78,70 @@ const products = [
     stock: 1, // ❗ สินค้าหมด
   },
 
-{
-    id: 6,
-    name: "Mecynorrhina polyphemus confluens",
-    price: 1500,
-    image: LocalBeetleImg14,
-    description: "ด้วงดอกไม้โพลิฟิมุส: 1คู่ (ผู้+เมีย)",
-    tags: ["CBF2"],
+ {
+    id: 3,
+    name: "Lucanus cervus akbesianus",
+    price: 3000,
+    image: LocalBeetleImg9,
+    description:
+      "ด้วงคีมก้ามปู: (ผู้1+เมีย2) ",
+    tags: ["CBF1" , "พักตัว"],
     stock: 1, // ❗ สินค้าหมด
   },
+
+{
+ id: 42,
+    name: "Homoderus mellyi ",
+    price: 3000,
+    image: LocalBeetleImg16,
+    description:
+      "ด้วงคีมเมลยี: 1 คู่ (ผู้+เมีย) ",
+    tags: ["CBF1", "พักตัว"],
+    stock: 1, // ❗ สินค้าหมด
+  },
+
+
+
+
+   {
+    id: 4,
+    name: "Dorcus hopei binodulosus",
+    price: 2000,
+    image: LocalBeetleImg10,
+    description:
+      "ด้วงคีมโฮเปญี่ปุ่น:1 คู่ (ผู้+เมีย) ",
+    tags: ["WD"],
+    stock: 0, // ❗ สินค้าหมด
+  },
+
+ 
+
+
+
+
+
+   {
+    id: 2,
+    name: "Homoderus gladiator",
+    price: 1800,
+    image: LocalBeetleImg8,
+    description:
+      "ด้วงคีมกลาดิเอเตอร์:(ผู้1+เมีย2) ",
+    tags: ["CBF1", "พักตัว"],
+    stock: 0, // ❗ สินค้าหมด
+  },
+
+{
+ id: 43,
+    name: "Odontobalis siva siva ",
+    price: 800,
+    image: LocalBeetleImg17,
+    description:
+      "ด้วงคีมซิว่า: 1 คู่ (ผู้+เมีย) ",
+    tags: ["WD", "กินแล้ว"],
+    stock: 0, // ❗ สินค้าหมด
+  },
+
 
 
   {

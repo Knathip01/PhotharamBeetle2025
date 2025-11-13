@@ -49,7 +49,7 @@ const products = [
     image: LocalBeetleImg7,
     description: "Dorcus, Phalacrognathus, Lamprima,prosopocoilus",
     tags: ["แนะนำ", "คุ้มค่า"],
-     stock: 1, // ❗ สินค้าหมด
+     stock: 0, // ❗ สินค้าหมด
 
   },
 
@@ -61,7 +61,7 @@ const products = [
     image: LocalBeetleImg8,
     description: "Dorcus, Phalacrognathus, Lamprima,prosopocoilus",
     tags: ["แนะนำ", "คุ้มค่า"],
-     stock: 1, // ❗ สินค้าหมด
+     stock: 0, // ❗ สินค้าหมด
 
   },
 
@@ -72,7 +72,7 @@ const products = [
     image: LocalBeetleImg9,
     description: "Dorcus, Phalacrognathus, Lamprima,prosopocoilus,Cyclommatus",
     tags: ["แนะนำ", "คุ้มค่า"],
-     stock: 1, // ❗ สินค้าหมด
+     stock: 0, // ❗ สินค้าหมด
 
   },
 
@@ -92,7 +92,7 @@ const products = [
   {
     id: 36,
     name: "Kuwa mat",
-    price: 150,
+    price: 160,
     image: LocalBeetleImg4,
     description: "Prosopocoilus, Dorcus",
     tags: ["แนะนำ", "คุ้มค่า"],
@@ -106,7 +106,7 @@ const products = [
     description:
       "วัสดุรองพื้น/อาหารหนอนด้วงกว่าง เหมาะกับด้วงกว่างเล็กและด้วงดอกไม้ทุกสายพันธุ์",
     tags: ["แนะนำ", "คุ้มค่า"],
-      stock: 0, // ❗ สินค้าหมด
+      stock: 8, // ❗ สินค้าหมด
   },
   {
     id: 38,
@@ -115,7 +115,7 @@ const products = [
     image: LocalBeetleImg2,
     description: "วัสดุรองพื้น/อาหารหนอนด้วงกว่างใหญ่ทุกสายพันธุ์",
     tags: ["แนะนำ", "คุ้มค่า"],
-      stock: 0, // ❗ สินค้าหมด
+      stock: 4, // ❗ สินค้าหมด
   },
   {
     id: 39,
@@ -124,7 +124,7 @@ const products = [
     image: LocalBeetleImg3,
     description: "วัสดุรองพื้น/อาหารหนอนด้วงคีมทุกสายพันธุ์",
     tags: ["แนะนำ", "คุ้มค่า"],
-    stock: 0, // ❗ สินค้าหมด
+    stock: 4, // ❗ สินค้าหมด
   },
   {
     id: 40,
@@ -135,6 +135,18 @@ const products = [
     tags: ["แนะนำ", "คุ้มค่า"],
       stock: 0, // ❗ สินค้าหมด
   },
+
+
+ {
+    id: 41,
+    name: "เห็ดนางฟ้า",
+    price: 50,
+    image: LocalBeetleImg5,
+    description: "อาหารเสริมด้วงคีม ",
+    tags: ["แนะนำ", "คุ้มค่า"],
+      stock: 0, // ❗ สินค้าหมด
+  },
+
 ];
 
 // ================== Utils ==================
