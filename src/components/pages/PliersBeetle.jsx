@@ -63,7 +63,7 @@ const products = [
     image: LocalBeetleImg12,
     description: "ด้วงคีมเขียวย่นน่าน:ตัวอ่อน:L1: 1 ตัว",
     tags: ["wf3"],
-    stock: 5,
+    stock: 0,
   },
 
  {
