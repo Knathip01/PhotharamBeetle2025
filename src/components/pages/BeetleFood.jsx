@@ -49,7 +49,7 @@ const products = [
     image: LocalBeetleImg2,
     description: "มูชิคิงแดงพ่อตาดำxแม่ตาแดง:ตัวอ่อน:L3: 1 คู่",
     tags: ["CBF1",],
-    stock: 1, // ❗ สินค้าหมด
+    stock: 0, // ❗ สินค้าหมด
   },
   {
     id: 26,
